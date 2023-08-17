@@ -1,4 +1,4 @@
-# Text Classification and Transformation of Book Reviews Using a Pipeline
+# Text Classification and Transformation of Book Reviews
 
 <sup>In association with Cornell Tech and Break Through Tech AI</sup>
 
