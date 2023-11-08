@@ -13,8 +13,7 @@ It includes the following steps:
 * Extracting features from the text data using TF-IDF
 * Building and evaluating a logistic regression model
 
-
-## Data
+## Dataset
 The dataset used in this project is bookReviewsData.csv, which contains book reviews to be classified. The data is split into 80% for training and 20% for testing.
 
 ## Model Evaluation
