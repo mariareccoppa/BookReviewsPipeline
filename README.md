@@ -1,6 +1,21 @@
 # Text Classification and Transformation of Book Reviews
+This project utilizes a machine learning pipeline for sentiment analysis on book reviews. It is designed to classify the sentiment of textual reviews into positive or negative categories using logistic regression.
 
-<sup>In association with Cornell Tech and Break Through Tech AI</sup>
+## Project Overview
+The pipeline is built using Python and incorporates several key libraries:
+* Pandas and NumPy for data manipulation
+* Matplotlib and Seaborn for data visualization
+* Scikit-learn for machine learning tasks
 
-In this Python project, I conducted sentiment analysis on book reviews. The dataset was divided 80% for training and 20% for testing. I utilized the TF-IDF algorithm for feature extraction. I considered both individual words as well as two-word combinations. I also experimented with term frequencies to optimize feature selection. I used a logistic regression model and combined all steps into a single machine learning pipeline. The model's accuracy was assessed with an ROC curve.
+It includes the following steps:
+* Loading and preprocessing the data using Pandas
+* Splitting the data into training and test sets
+* Extracting features from the text data using TF-IDF
+* Building and evaluating a logistic regression model
 
+
+## Data
+The dataset used in this project is bookReviewsData.csv, which contains book reviews to be classified. The data is split into 80% for training and 20% for testing.
+
+## Model Evaluation
+The logistic regression model's performance is assessed using an ROC curve, with an aim to maximize the area under the curve (AUC) for the best classifier performance.
